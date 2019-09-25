@@ -12,7 +12,7 @@ async function createData() {
         console.log(user)
     } catch (error) {
         console.log(error)
-        console.log(error.message) // <-- I expect duplicate error/warning here
+        console.log(error.message) // <-- I expect duplicate error/warning here as `username` is unique attribute in db
     }
 }
 
