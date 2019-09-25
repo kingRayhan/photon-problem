@@ -1,0 +1,13 @@
+{
+  "name": "photon-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "dependencies": {
+    "prisma2": "2.0.0-alpha.193"
+  }
+}
